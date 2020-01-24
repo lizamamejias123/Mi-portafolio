@@ -1,0 +1,78 @@
+
+body{font-family: 'Permanent Marker';
+font-family: 'Neuton', serif;}
+header {
+  background-image: url('../img/bg-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 10rem;}
+
+
+@media (min-width: 0px) and (max-width:799px){
+    .row{
+      margin-right: 0px!important;
+  margin-left: 0px!important;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  }
+  .col-sm-12, .col-sm-12{
+  padding-right: 0px!important;
+  padding-left: 0px!important;
+  }
+  h1{  text-align: center;
+  font-size: 25px}
+  h2{font-size: 30px;
+  text-align: center;
+  padding-top: 10px;}
+  .btn{font-size: 13px;}
+  h3, h4{font-size: 20px;
+  font-weight:400;font-family: 'Cabin', sans-serif!important;
+  line-height: 30px}
+  .h2-2{font-size: 25px;
+  font-weight: 700;}
+  h5{font-size: 17px;
+  font-weight:700}
+  p{font-size: 16px;
+  font-weight:400;}
+  a{font-size: 20px;}
+  span{
+    font-size: 20px;}
+    .span1{font-size: 30px;}
+    .span2{font-size: 40px;}
+}
+
+
+
+@media (min-width: 800px) and (max-width:1500px)
+{
+  .row {
+    margin-right: 0px!important;
+  margin-left: 0px!important;
+  padding-left: 15px!important;
+  padding-right: 15px!important;}
+  h1 {text-align: center!important;font-size: 50px; margin-right: 50px}
+  h2{font-size: 50px;text-align: left;  padding-top: 10px;}
+  .btn{font-size: 16px;}
+  h3, h4{font-size: 20px;font-weight:400;font-family: 'Cabin', sans-serif!important;line-height: 30px}
+  .h2-2{font-size: 40px;font-weight: 700;}
+  h5{font-size: 23px;font-weight:700}
+  p{font-size: 16px;font-weight:400}
+a{font-size: 25px;}}
+span{
+  font-size: 28px;}
+  .span1{font-size: 45px;}
+  .span2{font-size: 120px;}
+}
+
+.carousel-indicators {
+  top: 150px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+
+      margin-bottom: 110px
+}
